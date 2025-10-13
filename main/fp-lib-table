@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "smv_footprints")(type "KiCad")(uri "${KIPRJMOD}/../component-library/smv_footprints.pretty")(options "")(descr ""))
+)
