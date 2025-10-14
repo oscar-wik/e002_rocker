@@ -1,4 +1,4 @@
-26926828576071140
+26928589020767518
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106858,6 +106858,13 @@ smv_footprints
 IC_ST_SR1PARU
 
 
+0
+6
+6
+smv_footprints
+IC_TEXAS_HDC2010YPAR
+YPA0006
+Hygrometer
 0
 6
 6
