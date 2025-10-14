@@ -189,8 +189,9 @@
       ],
       "track_widths": [
         0.0,
-        0.13,
-        0.2
+        0.15,
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,8 +225,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.25
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -624,12 +625,12 @@
       "Root"
     ],
     [
-      "521fcbef-2365-4d32-8bbf-531b3e413075",
-      "RP2350"
+      "ae58e549-5943-4e2a-a1ec-e813bf1237c8",
+      "Sensors and STM32"
     ],
     [
-      "ae58e549-5943-4e2a-a1ec-e813bf1237c8",
-      "Low Power"
+      "fff5cdea-8e06-45f6-90cd-9333a7e0f484",
+      "ESP32"
     ]
   ],
   "text_variables": {}

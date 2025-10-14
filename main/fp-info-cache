@@ -1,4 +1,4 @@
-26928589020767518
+26932109937952180
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106714,6 +106714,20 @@ Diode
 0
 2
 2
+smv_footprints
+DIOD_CREE_UHD111A-FKA-C3K23E1L3VG5ZB3Z3
+
+UHD111A-FKA-C3K23E1L3VG5ZB3Z3 
+0
+4
+4
+smv_footprints
+DIOD_PHOTO_VISHAY_VEML6035
+6-SMD
+Integrated Circuit
+0
+6
+6
 smv_footprints
 DMN1004UFV7
 PowerDI3333-8 (Type UX)
