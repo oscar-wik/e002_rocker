@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "main.kicad_pro",
+    "filename": "e002_rocker.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -623,14 +623,6 @@
     [
       "3fb72eb4-5ab1-4792-bce3-e23c45f7e04c",
       "Root"
-    ],
-    [
-      "ae58e549-5943-4e2a-a1ec-e813bf1237c8",
-      "Sensors and STM32"
-    ],
-    [
-      "fff5cdea-8e06-45f6-90cd-9333a7e0f484",
-      "ESP32"
     ]
   ],
   "text_variables": {}

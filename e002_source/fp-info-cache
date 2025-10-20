@@ -1,4 +1,4 @@
-26932109937952180
+26939153917413292
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106288,6 +106288,13 @@ CAPE830X690N
 2
 2
 smv_footprints
+CAPP_PANASONIC_EEEFK0J682AM
+SMD_Lytic_J16
+Capacitor Polarised
+0
+2
+2
+smv_footprints
 CAP_NICHICON_UCD1H470MCL6GS
 
 UCD1H470MCL6GS 
@@ -106778,6 +106785,13 @@ IC_ESPIF_ESP32-C3-MINI-1-N4
 61
 61
 smv_footprints
+IC_EXPIF_ESP32-S3-WROOM-1-N8R2
+
+
+0
+61
+61
+smv_footprints
 IC_INFINEON_DPS368XTSA1
 
 
@@ -107009,6 +107023,13 @@ PROD_MVP_ASSEMBLY
 0
 0
 smv_footprints
+QFN40P400X500X80-37N-D
+REE0036A
+Integrated Circuit
+0
+37
+37
+smv_footprints
 QFN50P300X300X80-17L
 Max 21-0136_T1633-4
 Integrated Circuit
@@ -107022,6 +107043,13 @@ Integrated Circuit
 0
 21
 21
+smv_footprints
+QFN50P500X700X100-41N-D
+RGF0040F
+Integrated Circuit
+0
+41
+41
 smv_footprints
 QFN50P700X700X60-49N-D
 STM32U073CCU6-
