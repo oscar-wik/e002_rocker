@@ -12,4 +12,5 @@
   (lib (name "IC_ESPIF_ESP32-S3-WROOM-1-N8R2")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/IC_ESPIF_ESP32-S3-WROOM-1-N8R2.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8317HREER")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/DRV8317HREER.kicad_sym")(options "")(descr ""))
   (lib (name "CAPP_PANASONIC_EEV-FK1E222M")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/CAPP_PANASONIC_EEV-FK1E222M.kicad_sym")(options "")(descr ""))
+  (lib (name "DCP3601CDMR")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/DCP3601CDMR.kicad_sym")(options "")(descr ""))
 )
