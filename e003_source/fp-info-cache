@@ -1,4 +1,4 @@
-26940915006259923
+26946204489679722
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106393,6 +106393,13 @@ FH12-6S-0.5SVA54
 10
 10
 smv_footprints
+CONN_JST_S2B-PH-SM4-TB
+
+
+0
+4
+4
+smv_footprints
 CONN_M2_5_MOUNT
 
 
@@ -106981,6 +106988,13 @@ IND_TDK_VLCF5028T-220MR71-2
 2
 2
 smv_footprints
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+smv_footprints
 KICAD_SMDIP-6_W9.53mm
 6-lead surface-mounted (SMD) DIP package, row spacing 9.53 mm (375 mils)
 SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil
@@ -107015,6 +107029,13 @@ inductor
 0
 2
 2
+smv_footprints
+MIC_KNOWLES_SPH0641LM4H-1
+
+
+0
+6
+6
 smv_footprints
 PROD_MVP_ASSEMBLY
 

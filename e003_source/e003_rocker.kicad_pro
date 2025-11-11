@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 2.7,
+          "height": 4.2,
+          "width": 4.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -56,9 +56,47 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 1.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|109385000|115005000|8b1847e2-ff70-41d4-af8f-fe3f42e8c150|e7fcf393-186a-425f-81ce-0e7b17bacf32",
+          ""
+        ],
+        [
+          "items_not_allowed|110830000|116020000|66e6c35f-f400-4cb8-9014-cdd670fef170|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|110830000|123980000|8b1847e2-ff70-41d4-af8f-fe3f42e8c150|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|110830000|123980000|bfeffb74-273c-4182-9515-4450c0bbde55|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|111255000|123980000|f6090214-cc7b-49b0-891b-bf59227049e2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|111890000|124190000|51f49801-5306-4272-9b4e-55af1ab9d0a4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|112390000|124690000|badabfa9-b0c6-4da6-960c-e8d676c4aafe|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|110830000|116020000|F.Cu|4|66e6c35f-f400-4cb8-9014-cdd670fef170|bfeffb74-273c-4182-9515-4450c0bbde55",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -124,9 +162,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
@@ -137,7 +175,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.0,
+        "min_track_width": 0.175,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -189,9 +227,10 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
+        0.175,
         0.2,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,7 +264,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.65,
           "drill": 0.3
         }
       ],
@@ -473,7 +512,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "e002_rocker.kicad_pro",
+    "filename": "e003_rocker.kicad_pro",
     "version": 3
   },
   "net_settings": {
