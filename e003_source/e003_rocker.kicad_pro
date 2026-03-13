@@ -548,10 +548,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "e002_rocker_horizontal.step",
+      "step": "e003_rocker_horizontal.step",
       "svg": "",
       "vrml": ""
     },
@@ -590,7 +590,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -605,16 +605,556 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE MANUFACTURER",
+          "name": "ALTERNATE MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE PARTNUMBER",
+          "name": "ALTERNATE PARTNUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE",
+          "name": "AUTOMOTIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE",
+          "name": "CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (IMPERIAL)",
+          "name": "CASE CODE (IMPERIAL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (METRIC)",
+          "name": "CASE CODE (METRIC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE/PACKAGE",
+          "name": "CASE/PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CATEGORY",
+          "name": "CATEGORY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERT_CSA",
+          "name": "CERT_CSA",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERT_CULUS",
+          "name": "CERT_CULUS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERT_UL",
+          "name": "CERT_UL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERT_VDE",
+          "name": "CERT_VDE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CLASSNAME",
+          "name": "CLASSNAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CNHEADER",
+          "name": "CNHEADER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLOR",
+          "name": "COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2DESCRIPTION",
+          "name": "COMPONENTLINK2DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK2URL",
+          "name": "COMPONENTLINK2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPTYPE",
+          "name": "COMPTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACTFINISH",
+          "name": "CONTACTFINISH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CT",
+          "name": "CT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT_A",
+          "name": "CURRENT_A",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEPTH",
+          "name": "DEPTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L1",
+          "name": "DEVICE CLASS L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L2",
+          "name": "DEVICE CLASS L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L3",
+          "name": "DEVICE CLASS L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIELECTRIC",
+          "name": "DIELECTRIC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY DESCRIPTION",
+          "name": "DIGIKEY DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GENDER",
+          "name": "GENDER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GREEN_EU ROHS",
+          "name": "GREEN_EU ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GREEN_EU ROHS-2",
+          "name": "GREEN_EU ROHS-2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GREEN_LIFECYCLE",
+          "name": "GREEN_LIFECYCLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GREEN_REACH",
+          "name": "GREEN_REACH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IPC LAND PATTERN NAME",
+          "name": "IPC LAND PATTERN NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONDATE",
+          "name": "LATESTREVISIONDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD FREE",
+          "name": "LEAD FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LENGTH",
+          "name": "LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER",
+          "name": "MANUFACTURER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MATERIAL",
+          "name": "MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX OPERATING TEMPERATURE",
+          "name": "MAX OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MIN OPERATING TEMPERATURE",
+          "name": "MIN OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTTYPE",
+          "name": "MOUNTTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOTE",
+          "name": "NOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OCTOPART",
+          "name": "OCTOPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORIENTATION",
+          "name": "ORIENTATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE QUANTITY",
+          "name": "PACKAGE QUANTITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGEREFERENCE",
+          "name": "PACKAGEREFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBER",
+          "name": "PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTNUMBER",
+          "name": "PARTNUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINCOUNT",
+          "name": "PINCOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH_MM",
+          "name": "PITCH_MM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RADIATION HARDENING",
+          "name": "RADIATION HARDENING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROWSPACING_MM",
+          "name": "ROWSPACING_MM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROW_COUNT",
+          "name": "ROW_COUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SHROUDED",
+          "name": "SHROUDED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 1",
+          "name": "SUPPLIER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 2",
+          "name": "SUPPLIER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 3",
+          "name": "SUPPLIER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 1",
+          "name": "SUPPLIER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 2",
+          "name": "SUPPLIER PART NUMBER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 3",
+          "name": "SUPPLIER PART NUMBER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE",
+          "name": "TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE CHARACTERISTIC",
+          "name": "TEMPERATURE CHARACTERISTIC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE COEFFICIENT",
+          "name": "TEMPERATURE COEFFICIENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE RANGE HIGH",
+          "name": "TEMPERATURE RANGE HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE RANGE LOW",
+          "name": "TEMPERATURE RANGE LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THICKNESS",
+          "name": "THICKNESS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING",
+          "name": "VOLTAGE RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (DC)",
+          "name": "VOLTAGE RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE_V",
+          "name": "VOLTAGE_V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WIDTH",
+          "name": "WIDTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "height",
+          "name": "height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf",
+          "name": "manf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manfn#",
+          "name": "manfn#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mpn",
+          "name": "mpn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "val",
+          "name": "val",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

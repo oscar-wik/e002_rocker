@@ -15,4 +15,5 @@
   (lib (name "DCP3601CDMR")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/DCP3601CDMR.kicad_sym")(options "")(descr ""))
   (lib (name "PRS11R-425F-S103B1")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/PRS11R-425F-S103B1.kicad_sym")(options "")(descr ""))
   (lib (name "SPH0641LM4H-1")(type "KiCad")(uri "C:/repos/smoov/e002_rocker/SPH0641LM4H-1.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-03-12_14-18-55")(type "KiCad")(uri "C:/repos/KiCADv6/2026-03-12_14-18-55.kicad_sym")(options "")(descr ""))
 )

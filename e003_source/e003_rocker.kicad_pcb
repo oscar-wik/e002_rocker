@@ -79,7 +79,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -13710,7 +13710,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "9c6fa689-c745-4413-ab36-104c8f97afef")
 		)
 		(fp_line
@@ -13721,7 +13720,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "6f1901a3-ebba-41d6-b4f3-03561d3ca405")
 		)
 		(fp_line
@@ -13732,7 +13730,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "7adff0d9-1e77-4eff-ba71-256617e9701d")
 		)
 		(fp_line
@@ -13743,7 +13740,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "88d5b5c5-542d-44ad-9a08-c07ae7d762e2")
 		)
 		(fp_rect
@@ -13755,7 +13751,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "1b577dd3-f2b6-4bc4-9171-3610d1d355bb")
 		)
 		(fp_line
@@ -13766,7 +13761,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "033a74ce-1379-4863-a361-794068f5ba3a")
 		)
 		(fp_line
@@ -13777,7 +13771,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "cf7c557c-274c-4279-8703-1814ac70b487")
 		)
 		(fp_line
@@ -13788,7 +13781,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "eaa540b7-e8ca-4015-8484-bd1f85a8228c")
 		)
 		(fp_line
@@ -13799,7 +13791,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "5f83ab2c-48b8-41c5-ad0c-0d07fc99e047")
 		)
 		(fp_text user "${REFERENCE}"
@@ -14055,7 +14046,6 @@
 			(uuid "1f72b851-4a3a-49ba-9726-5bd84ab838f0")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://SSQ-110-03-T-D.stp"
 			(offset
 				(xyz 0.00008 0.00008 0)
@@ -15311,7 +15301,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "05f8c8bd-a70d-4686-bd18-78b86f13e1de")
 		)
 		(fp_line
@@ -15322,7 +15311,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "dfbfa07e-5fb1-45fc-b76d-44563d124837")
 		)
 		(fp_line
@@ -15333,7 +15321,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "7c61eab7-562f-40d9-acba-9a3a05ed9419")
 		)
 		(fp_line
@@ -15344,7 +15331,6 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "b1a9a5e2-1ad6-4881-b0fb-0aa0e048fcb1")
 		)
 		(fp_rect
@@ -15356,7 +15342,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 7798903)
 			(uuid "60ccb1e5-af9e-4ff2-b138-26125601cdbb")
 		)
 		(fp_line
@@ -15367,7 +15352,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "6ec6030d-be67-4994-9c65-eb36f1db922c")
 		)
 		(fp_line
@@ -15378,7 +15362,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "828185b3-f1a3-4b96-b8d9-4b3db98a6923")
 		)
 		(fp_line
@@ -15389,7 +15372,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "ea2e11f7-ca71-4109-9a1d-c83fbef8a17d")
 		)
 		(fp_line
@@ -15400,7 +15382,6 @@
 				(type solid)
 			)
 			(layer "User.6")
-			(net 7798903)
 			(uuid "74eb8e94-b911-4f61-96a6-8fe6e86cd08a")
 		)
 		(fp_text user "${REFERENCE}"
@@ -15656,7 +15637,6 @@
 			(uuid "aba28b92-bd58-4bea-bf45-8afda51eed01")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://SSQ-110-03-T-D.stp"
 			(offset
 				(xyz 0.00008 0.00008 0)
@@ -28519,12 +28499,28 @@
 		(uuid "dd34c785-1496-4d46-9828-00db1cc8ea88")
 	)
 	(segment
+		(start 123 168)
+		(end 123 167.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "df38870a-5e41-41d3-a4dc-7edaf2c714c8")
+	)
+	(segment
 		(start 119.75 150.4)
 		(end 119.75 150.275)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "e2666aac-7b51-4d83-b440-2e36123e02a8")
+	)
+	(segment
+		(start 123 167.4)
+		(end 123.8 166.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "e4016308-bf81-4c87-984d-11a98940da62")
 	)
 	(segment
 		(start 141.875 115.5)
@@ -40421,5 +40417,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(embedded_files)
 )
