@@ -1,4 +1,4 @@
-26946204489679722
+26990632495249530
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106281,6 +106281,13 @@ Integrated Circuit
 8
 8
 smv_footprints
+BTN_ESWITCH_PBH2UXXSNPNAGX
+
+
+0
+6
+6
+smv_footprints
 CAPE830X690N
 
 
@@ -106308,6 +106315,20 @@ CONN_AMPHENOL_10142344-110KLF
 0
 14
 14
+smv_footprints
+CONN_AMPHENOL_F51L-1A7H1-11012
+
+
+0
+14
+14
+smv_footprints
+CONN_AMPHENOL_F51L-1A7H1-11018
+
+
+0
+20
+20
 smv_footprints
 CONN_CINCH_135-3701-311
 MMCX Jack (Socket) 
@@ -106392,6 +106413,13 @@ FH12-6S-0.5SVA54
 0
 10
 10
+smv_footprints
+CONN_JST_B5P-VH
+<b>JST VH Series header</b> 3.96mm pitch disconnectable crimp style connectors, vertical (top entry type), 5 pins<p>
+
+0
+5
+5
 smv_footprints
 CONN_JST_S2B-PH-SM4-TB
 
@@ -106743,6 +106771,13 @@ Integrated Circuit
 6
 6
 smv_footprints
+DIOD_STM_ESDA25P35-1U1M
+
+
+0
+2
+2
+smv_footprints
 DMN1004UFV7
 PowerDI3333-8 (Type UX)
 MOSFET (N-Channel)
@@ -106771,6 +106806,13 @@ Inductor
 2
 2
 smv_footprints
+FUSE_LITTLEFUSE_0468003_NRHF
+
+0468003.NRHF 
+0
+2
+2
+smv_footprints
 HDRV20W64P254_2X10
 surface-mounted straight pin header, 2x10, 2.54mm pitch, double rows
 Surface mounted pin header SMD 2x10 2.54mm double row
@@ -106784,6 +106826,13 @@ ADA4891-2ARMZ
 0
 8
 8
+smv_footprints
+IC_DIODES_AP738133Y13
+SOT89_1
+Integrated Circuit
+0
+4
+4
 smv_footprints
 IC_ESPIF_ESP32-C3-MINI-1-N4
 
@@ -106827,9 +106876,23 @@ MP8833GD-0000-Z
 16
 16
 smv_footprints
+IC_NEXPERIA_74HC393D
+
+74HC393D_652 
+0
+14
+14
+smv_footprints
 IC_NEXPERIA_74LVC1G58GW125
 74LVC1G58GW,125-2
 Integrated Circuit
+0
+6
+6
+smv_footprints
+IC_NEXPERIA_74LVC1G386GW
+
+74LVC1G386GW_125 
 0
 6
 6
@@ -106890,6 +106953,13 @@ Through hole pin header THT 2x20 2.54mm double row
 86
 43
 smv_footprints
+IC_RUNIC_RS2254XQ
+
+CD4066BPWR 
+0
+14
+14
+smv_footprints
 IC_ST_SR1PARU
 
 
@@ -106903,6 +106973,20 @@ Hygrometer
 0
 6
 6
+smv_footprints
+IC_TEXAS_TPD4S201TRGR
+
+TPS7A8301ARGRR 
+0
+25
+21
+smv_footprints
+IC_TOSHIBA_74VHCT126AFT
+
+74VHCT126AFT 
+0
+14
+14
 smv_footprints
 INDC3225X170N
 
@@ -107023,6 +107107,20 @@ LED
 2
 2
 smv_footprints
+LED_WURTH_WL-SFSW_1204
+
+
+0
+4
+4
+smv_footprints
+LED_XINLIGHT_XL-3210RGBC-YG
+
+
+0
+4
+4
+smv_footprints
 L_1210_3225Metric
 Inductor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
@@ -107036,6 +107134,55 @@ MIC_KNOWLES_SPH0641LM4H-1
 0
 6
 6
+smv_footprints
+PFUSE_LITTLEFUSE_1812L20016DR
+
+1812L200-C 
+0
+2
+2
+smv_footprints
+PIPE_BIVAR_SLP3-150-300-F
+
+
+0
+0
+0
+smv_footprints
+POT_ALPS_RK09K1110-F20.STEP
+111009J 1110AK4 11100DN 1110AAR 1110077 1110A0J 110AMJ 1110B26 D1110C1A Potentiometer, horizontal, Alps RK09K Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf
+Potentiometer horizontal Alps RK09K Single Snapin
+0
+5
+4
+smv_footprints
+POT_ALPS_RK0971114D0B
+RK0971114D0B-3
+Switch
+0
+5
+5
+smv_footprints
+POT_ALPS_RK09711110EL
+RK09711110EL-1
+Variable Resistor
+0
+5
+5
+smv_footprints
+POT_ALPS_RK097111080R
+RK097111080R-2
+Variable Resistor
+0
+3
+3
+smv_footprints
+POT_BOURNS_TC33X2201E
+TC33X-2-201E-3
+Variable Resistor
+0
+3
+3
 smv_footprints
 PROD_MVP_ASSEMBLY
 
@@ -107099,6 +107246,13 @@ Integrated Circuit
 0
 100
 100
+smv_footprints
+REL_PANASONIC_JW2SN-DC12V
+JW2SN-DC12V
+Relay or Contactor
+0
+8
+8
 smv_footprints
 RESC2012_YAEGO_PA0805
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -107169,6 +107323,13 @@ Integrated Circuit
 0
 8
 8
+smv_footprints
+SOIC127P600X175-14N
+NE556DR-1
+Integrated Circuit
+0
+14
+14
 smv_footprints
 SOIC127P600X175-16N
 
@@ -107352,6 +107513,13 @@ test point THT pad rectangle square
 1
 1
 smv_footprints
+TRAN_ALPHA__AONR21307
+
+
+0
+5
+5
+smv_footprints
 TRAN_BSS84AKW115
 SOT323(H=1.1mm)
 MOSFET (P-Channel)
@@ -107442,6 +107610,13 @@ test point SMD pad rectangle square
 0
 2
 2
+smv_footprints
+TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
 smv_footprints
 TestPoint_Plated_Hole_D3.2mm
 Plated Hole as test Point, diameter 3.2mm

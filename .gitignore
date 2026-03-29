@@ -1,5 +1,7 @@
 main/main-backups/*
 *.lck
 *.bak
-e002_source/e002_rocker-backups/*
-e002_source/main-backups/*
+e003_source/e002_rocker-backups/*
+e003_source/main-backups/*
+e003_source/main-backups/*
+e003_source/e003_rocker-backups/**

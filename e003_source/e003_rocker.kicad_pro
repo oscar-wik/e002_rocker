@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.2,
-          "width": 4.2
+          "drill": 0.2,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,40 +63,7 @@
           "width": 1.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|109385000|115005000|8b1847e2-ff70-41d4-af8f-fe3f42e8c150|e7fcf393-186a-425f-81ce-0e7b17bacf32",
-          ""
-        ],
-        [
-          "items_not_allowed|110830000|116020000|66e6c35f-f400-4cb8-9014-cdd670fef170|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|110830000|123980000|8b1847e2-ff70-41d4-af8f-fe3f42e8c150|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|110830000|123980000|bfeffb74-273c-4182-9515-4450c0bbde55|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|111255000|123980000|f6090214-cc7b-49b0-891b-bf59227049e2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|111890000|124190000|51f49801-5306-4272-9b4e-55af1ab9d0a4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|112390000|124690000|badabfa9-b0c6-4da6-960c-e8d676c4aafe|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|110830000|116020000|F.Cu|4|66e6c35f-f400-4cb8-9014-cdd670fef170|bfeffb74-273c-4182-9515-4450c0bbde55",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -128,7 +95,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -174,7 +141,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.175,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -229,8 +196,12 @@
         0.0,
         0.175,
         0.2,
+        0.3,
+        0.4,
         0.5,
-        1.0
+        0.8,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -492,7 +463,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -534,6 +505,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -541,7 +519,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS*"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS_CUT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -559,7 +546,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "C:\\Users\\OscarSandstrom\\Desktop\\e003_rocker.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -596,19 +583,19 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -650,7 +637,7 @@
           "group_by": false,
           "label": "CASE CODE (IMPERIAL)",
           "name": "CASE CODE (IMPERIAL)",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -674,7 +661,7 @@
           "group_by": false,
           "label": "CERT_CSA",
           "name": "CERT_CSA",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -776,7 +763,7 @@
           "group_by": false,
           "label": "DEVICE CLASS L2",
           "name": "DEVICE CLASS L2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -806,7 +793,7 @@
           "group_by": false,
           "label": "GREEN_EU ROHS",
           "name": "GREEN_EU ROHS",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1028,19 +1015,19 @@
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 1",
           "name": "SUPPLIER PART NUMBER 1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 2",
           "name": "SUPPLIER PART NUMBER 2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 3",
           "name": "SUPPLIER PART NUMBER 3",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1076,13 +1063,13 @@
           "group_by": false,
           "label": "THICKNESS",
           "name": "THICKNESS",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "TOLERANCE",
           "name": "TOLERANCE",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1106,7 +1093,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1121,10 +1108,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "manf",
           "name": "manf",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1133,21 +1120,69 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "mpn",
           "name": "mpn",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "val",
           "name": "val",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "alt part",
+          "name": "alt part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
         }
       ],
@@ -1156,7 +1191,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "TOLERANCE"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1202,6 +1237,14 @@
     [
       "3fb72eb4-5ab1-4792-bce3-e23c45f7e04c",
       "Root"
+    ],
+    [
+      "79408c72-fad9-4af1-b7af-f1d49f4fb31c",
+      "Motor Control"
+    ],
+    [
+      "1213d711-6840-4996-a9f9-72a7221f77a6",
+      "interface_board"
     ]
   ],
   "text_variables": {}
