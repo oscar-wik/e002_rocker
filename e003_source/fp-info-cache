@@ -1,4 +1,4 @@
-26990632495249530
+27001295133831943
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106274,6 +106274,13 @@ Connector
 6
 6
 smv_footprints
+BATT_GENERIC_18650
+
+
+0
+0
+0
+smv_footprints
 BGA8C40P2X4_87X156X53
 YFP0008-C01
 Integrated Circuit
@@ -106287,6 +106294,13 @@ BTN_ESWITCH_PBH2UXXSNPNAGX
 0
 6
 6
+smv_footprints
+BTN_SAMESKY_TS32-7-35-BK-B-160-RA-SMT-TR
+
+
+0
+4
+4
 smv_footprints
 CAPE830X690N
 
@@ -106329,6 +106343,13 @@ CONN_AMPHENOL_F51L-1A7H1-11018
 0
 20
 20
+smv_footprints
+CONN_BAT_KEYSTONE_109-2
+
+
+0
+2
+2
 smv_footprints
 CONN_CINCH_135-3701-311
 MMCX Jack (Socket) 
@@ -106750,6 +106771,13 @@ Integrated Circuit
 6
 6
 smv_footprints
+DIODC_LED_XL-1615SURSYGC
+
+
+0
+4
+4
+smv_footprints
 DIOD_COMP_CDBQR0130R
 CDBQR0130R-4
 Diode
@@ -106846,7 +106874,7 @@ IC_EXPIF_ESP32-S3-WROOM-1-N8R2
 
 0
 61
-61
+49
 smv_footprints
 IC_INFINEON_DPS368XTSA1
 
@@ -107205,6 +107233,13 @@ Integrated Circuit
 17
 17
 smv_footprints
+QFN50P400X400X80-21N
+QFN-20
+Integrated Circuit
+0
+21
+21
+smv_footprints
 QFN50P400X500X80-21N-D
 20-Lead (4mm × 5mm) Plastic QFN
 Integrated Circuit
@@ -107344,6 +107379,13 @@ Integrated Circuit
 0
 28
 28
+smv_footprints
+SON50P200X200X80-9N
+DSG
+Integrated Circuit
+0
+9
+9
 smv_footprints
 SON50P300X200X80-11N
 

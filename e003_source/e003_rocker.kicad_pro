@@ -535,8 +535,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
-      "pos_files": "",
+      "plot": "gerber_evt/",
+      "pos_files": "gerber_evt/",
       "specctra_dsn": "",
       "step": "e003_rocker_horizontal.step",
       "svg": "",
@@ -637,7 +637,7 @@
           "group_by": false,
           "label": "CASE CODE (IMPERIAL)",
           "name": "CASE CODE (IMPERIAL)",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -661,7 +661,7 @@
           "group_by": false,
           "label": "CERT_CSA",
           "name": "CERT_CSA",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -763,7 +763,7 @@
           "group_by": false,
           "label": "DEVICE CLASS L2",
           "name": "DEVICE CLASS L2",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -793,7 +793,7 @@
           "group_by": false,
           "label": "GREEN_EU ROHS",
           "name": "GREEN_EU ROHS",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1015,19 +1015,19 @@
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 1",
           "name": "SUPPLIER PART NUMBER 1",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 2",
           "name": "SUPPLIER PART NUMBER 2",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "SUPPLIER PART NUMBER 3",
           "name": "SUPPLIER PART NUMBER 3",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1063,7 +1063,7 @@
           "group_by": false,
           "label": "THICKNESS",
           "name": "THICKNESS",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1093,7 +1093,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1141,7 +1141,7 @@
           "group_by": false,
           "label": "alt part",
           "name": "alt part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1159,7 +1159,7 @@
           "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1171,7 +1171,7 @@
           "group_by": false,
           "label": "STANDARD",
           "name": "STANDARD",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
